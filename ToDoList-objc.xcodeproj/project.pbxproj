@@ -13,6 +13,13 @@
 		B55E0254232BF20800B42820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55E0253232BF20800B42820 /* Assets.xcassets */; };
 		B55E0257232BF20800B42820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E0255232BF20800B42820 /* LaunchScreen.storyboard */; };
 		B55E025A232BF20800B42820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E0259232BF20800B42820 /* main.m */; };
+		B5A82AAB23B78E95002EBD77 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A82AA923B78E95002EBD77 /* TaskViewController.m */; };
+		B5A82AAC23B78E95002EBD77 /* TaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A82AAA23B78E95002EBD77 /* TaskViewController.xib */; };
+		B5A82AB123B78F0A002EBD77 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A82AB023B78F0A002EBD77 /* Task.m */; };
+		B5A82AB523B78FE9002EBD77 /* AddTaskScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A82AB323B78FE9002EBD77 /* AddTaskScreenViewController.m */; };
+		B5A82AB623B78FE9002EBD77 /* AddTaskScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A82AB423B78FE9002EBD77 /* AddTaskScreenViewController.xib */; };
+		B5A82ABA23B79041002EBD77 /* TaskTileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A82AB823B79041002EBD77 /* TaskTileTableViewCell.m */; };
+		B5A82ABB23B79041002EBD77 /* TaskTileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A82AB923B79041002EBD77 /* TaskTileTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		B55E0256232BF20800B42820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55E0258232BF20800B42820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55E0259232BF20800B42820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5A82AA823B78E95002EBD77 /* TaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		B5A82AA923B78E95002EBD77 /* TaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		B5A82AAA23B78E95002EBD77 /* TaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskViewController.xib; sourceTree = "<group>"; };
+		B5A82AAF23B78F0A002EBD77 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B5A82AB023B78F0A002EBD77 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		B5A82AB223B78FE9002EBD77 /* AddTaskScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskScreenViewController.h; sourceTree = "<group>"; };
+		B5A82AB323B78FE9002EBD77 /* AddTaskScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskScreenViewController.m; sourceTree = "<group>"; };
+		B5A82AB423B78FE9002EBD77 /* AddTaskScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTaskScreenViewController.xib; sourceTree = "<group>"; };
+		B5A82AB723B79041002EBD77 /* TaskTileTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskTileTableViewCell.h; sourceTree = "<group>"; };
+		B5A82AB823B79041002EBD77 /* TaskTileTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskTileTableViewCell.m; sourceTree = "<group>"; };
+		B5A82AB923B79041002EBD77 /* TaskTileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTileTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 		B55E0249232BF20700B42820 /* ToDoList-objc */ = {
 			isa = PBXGroup;
 			children = (
+				B5A82AAE23B78EE4002EBD77 /* Widgets */,
+				B5A82AAD23B78ECA002EBD77 /* Models */,
 				B55E024A232BF20700B42820 /* AppDelegate.h */,
 				B55E024B232BF20700B42820 /* AppDelegate.m */,
 				B55E024D232BF20700B42820 /* ViewController.h */,
@@ -67,8 +87,33 @@
 				B55E0255232BF20800B42820 /* LaunchScreen.storyboard */,
 				B55E0258232BF20800B42820 /* Info.plist */,
 				B55E0259232BF20800B42820 /* main.m */,
+				B5A82AA823B78E95002EBD77 /* TaskViewController.h */,
+				B5A82AA923B78E95002EBD77 /* TaskViewController.m */,
+				B5A82AAA23B78E95002EBD77 /* TaskViewController.xib */,
 			);
 			path = "ToDoList-objc";
+			sourceTree = "<group>";
+		};
+		B5A82AAD23B78ECA002EBD77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5A82AAF23B78F0A002EBD77 /* Task.h */,
+				B5A82AB023B78F0A002EBD77 /* Task.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5A82AAE23B78EE4002EBD77 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B5A82AB223B78FE9002EBD77 /* AddTaskScreenViewController.h */,
+				B5A82AB323B78FE9002EBD77 /* AddTaskScreenViewController.m */,
+				B5A82AB423B78FE9002EBD77 /* AddTaskScreenViewController.xib */,
+				B5A82AB723B79041002EBD77 /* TaskTileTableViewCell.h */,
+				B5A82AB823B79041002EBD77 /* TaskTileTableViewCell.m */,
+				B5A82AB923B79041002EBD77 /* TaskTileTableViewCell.xib */,
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55E0257232BF20800B42820 /* LaunchScreen.storyboard in Resources */,
+				B5A82AAC23B78E95002EBD77 /* TaskViewController.xib in Resources */,
+				B5A82ABB23B79041002EBD77 /* TaskTileTableViewCell.xib in Resources */,
+				B5A82AB623B78FE9002EBD77 /* AddTaskScreenViewController.xib in Resources */,
 				B55E0254232BF20800B42820 /* Assets.xcassets in Resources */,
 				B55E0252232BF20700B42820 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A82AB123B78F0A002EBD77 /* Task.m in Sources */,
+				B5A82ABA23B79041002EBD77 /* TaskTileTableViewCell.m in Sources */,
+				B5A82AB523B78FE9002EBD77 /* AddTaskScreenViewController.m in Sources */,
 				B55E024F232BF20700B42820 /* ViewController.m in Sources */,
+				B5A82AAB23B78E95002EBD77 /* TaskViewController.m in Sources */,
 				B55E025A232BF20800B42820 /* main.m in Sources */,
 				B55E024C232BF20700B42820 /* AppDelegate.m in Sources */,
 			);
